@@ -54,6 +54,8 @@ namespace UserManagementDB
             {
                 // Update form fields/controls with information for user being edited
                 this.textBoxEmail.Text = this.editUser.Email;
+                //editing email is disabled
+                this.textBoxEmail.Enabled = false;
                 this.textBoxName.Text = this.editUser.Name;
                 this.textBoxPhone.Text = this.editUser.Phone;
                 this.textBoxPassword.Text = this.editUser.Password;
@@ -67,6 +69,8 @@ namespace UserManagementDB
             {
                 // Update form fields/controls with information for user being edited
                 this.textBoxEmail.Text = this.editUser.Email;
+                //editing email is disabled
+                this.textBoxEmail.Enabled = false;
                 this.textBoxName.Text = this.editUser.Name;
                 this.textBoxPhone.Text = this.editUser.Phone;
                 this.textBoxPassword.Text = this.editUser.Password;
